@@ -10,6 +10,7 @@ namespace _5task3
         where K : IComparable
         where V : IComparable
     {
+
         class TItem
         {
             public Entry<K, V> info;
@@ -20,6 +21,7 @@ namespace _5task3
                 info.Key = _key;
                 info.Value = _value;
                 next = null;
+
             }
         }
         TItem head;

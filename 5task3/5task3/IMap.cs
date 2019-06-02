@@ -8,7 +8,7 @@ namespace _5task3
 {
     public interface IMap<K, V> : IEnumerable<IEntry<K, V>>
         where K : IComparable
-where V : IComparable
+        where V : IComparable
     { 
         void Put(K key, V value);
         void Clear();

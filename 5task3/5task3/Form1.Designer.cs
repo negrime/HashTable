@@ -54,12 +54,12 @@
             this.MethodsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.forEachToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.existsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.findAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.forEachToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.utilsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ClearToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ElemCountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.CheckEmptyНаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.findAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.forEachToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.MainPanel.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -132,7 +132,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(377, 99);
+            this.button3.Location = new System.Drawing.Point(377, 94);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(70, 28);
             this.button3.TabIndex = 8;
@@ -174,7 +174,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(377, 133);
+            this.button4.Location = new System.Drawing.Point(377, 128);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(70, 28);
             this.button4.TabIndex = 11;
@@ -200,7 +200,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(377, 166);
+            this.button5.Location = new System.Drawing.Point(377, 162);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(70, 28);
             this.button5.TabIndex = 14;
@@ -288,7 +288,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(3, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(544, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(542, 24);
             this.menuStrip1.TabIndex = 26;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -316,6 +316,20 @@
             this.existsToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.existsToolStripMenuItem.Text = "Exists";
             this.existsToolStripMenuItem.Click += new System.EventHandler(this.existsToolStripMenuItem_Click);
+            // 
+            // findAllToolStripMenuItem
+            // 
+            this.findAllToolStripMenuItem.Name = "findAllToolStripMenuItem";
+            this.findAllToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.findAllToolStripMenuItem.Text = "FindAll";
+            this.findAllToolStripMenuItem.Click += new System.EventHandler(this.findAllToolStripMenuItem_Click);
+            // 
+            // forEachToolStripMenuItem1
+            // 
+            this.forEachToolStripMenuItem1.Name = "forEachToolStripMenuItem1";
+            this.forEachToolStripMenuItem1.Size = new System.Drawing.Size(138, 22);
+            this.forEachToolStripMenuItem1.Text = "ForEach";
+            this.forEachToolStripMenuItem1.Click += new System.EventHandler(this.forEachToolStripMenuItem1_Click);
             // 
             // utilsToolStripMenuItem
             // 
@@ -349,26 +363,12 @@
             this.CheckEmptyНаToolStripMenuItem.Text = "Проверить на пустоту";
             this.CheckEmptyНаToolStripMenuItem.Click += new System.EventHandler(this.CheckEmptyНаToolStripMenuItem_Click);
             // 
-            // findAllToolStripMenuItem
-            // 
-            this.findAllToolStripMenuItem.Name = "findAllToolStripMenuItem";
-            this.findAllToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.findAllToolStripMenuItem.Text = "FindAll";
-            this.findAllToolStripMenuItem.Click += new System.EventHandler(this.findAllToolStripMenuItem_Click);
-            // 
-            // forEachToolStripMenuItem1
-            // 
-            this.forEachToolStripMenuItem1.Name = "forEachToolStripMenuItem1";
-            this.forEachToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.forEachToolStripMenuItem1.Text = "ForEach";
-            this.forEachToolStripMenuItem1.Click += new System.EventHandler(this.forEachToolStripMenuItem1_Click);
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.ClientSize = new System.Drawing.Size(544, 334);
+            this.ClientSize = new System.Drawing.Size(542, 334);
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbBase);

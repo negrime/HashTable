@@ -46,7 +46,11 @@ namespace _5task3
         public int Count { get { return entries.Length; } }
         public void Put(K key, V value)
         {
-            if (ContainsKey(key)) this[key] = value;
+            if (ContainsKey(key))
+            {
+                throw (new MapException("Такой ключ уже есть в таблице"));
+                //this[key] = value;
+            }
             else
             {
                 Entry<K, V>[] tmp = new Entry<K, V>[Count + 1];

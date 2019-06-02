@@ -53,7 +53,8 @@ namespace _5task3
         }
         public void Put(K key, V value)
         {
-            if (ContainsKey(key)) this[key] = value;
+            if (ContainsKey(key))
+                this[key] = value;
             else
             {
                 int index = key.GetHashCode() % n;
